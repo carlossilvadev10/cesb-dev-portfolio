@@ -24,7 +24,7 @@ Te doy la bienvenida a **CESB Dev Portfolio**, un espacio donde comparto proyect
 |----------|-------------|-------------|-------|
 | **EShop CESB** | Tienda online de productos tecnológicos con navegación fluida y diseño atractivo. | React, Tailwind CSS, JavaScript, HTML, CSS | [Ver proyecto](https://eshop-cesb.netlify.app/) |
 | **Event Horizont** | Plataforma para descubrir eventos y experiencias culturales. | React, Tailwind CSS, JavaScript, HTML, CSS | [Ver proyecto](https://event-horizont.netlify.app/) |
-| **Shop Cart** | Página de ventas de productos deportivos y para el hogar con interfaz intuitiva. | React, Bootstrap, Sass, JavaScript, HTML, CSS | [Repositorio](https://github.com/carlossilvadev10/shop-cart) |
+| **Shop Cart** | Página de ventas de productos deportivos y para el hogar con interfaz intuitiva. | React, Bootstrap, Sass, JavaScript, HTML, CSS | [Ver proyecto](https://shop-cart-web.netlify.app/) |
 | **Nike Store** | Tienda virtual inspirada en Nike, enfocada en experiencia de usuario optimizada. | React, Tailwind CSS, JavaScript, HTML, CSS | [Ver proyecto](https://nike-store-sport.vercel.app/) |
 
 ---
