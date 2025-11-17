@@ -111,7 +111,7 @@ const Hero = () => {
                                     ))
                                 }
                             </motion.div>
-                            <motion.div variants = {itemVariants} className = "flex items-center justify-center space-x-6 text-xs uppercase tracking-widest flex-wrap">
+                            <motion.div variants = {itemVariants} className = "flex items-center justify-center space-x-3 md:space-x-6 text-xs uppercase tracking-widest flex-wrap">
                                 <span className = {`${isDarkMode ? "text-gray-600" : "text-gray-500"}`}>
                                     React
                                 </span>
@@ -175,9 +175,9 @@ const Hero = () => {
                                 }
                             </motion.div>
                         </motion.div>
-                        <motion.div initial = "hidden" animate = "visible" variants = {imageVariants} className = "flex justify-center lg:justify-end">
-                            <div className = "relative">
-                                <motion.div variants = {itemVariants} className = "flex items-center space-x-8 text-xs uppercase tracking-widest absolute -top-16 -left-16">
+                        <motion.div initial = "hidden" animate = "visible" variants = {imageVariants} className = "flex justify-center">
+                            <div className = "relative flex flex-col items-center">
+                                <motion.div variants = {itemVariants} className = "flex items-center justify-center space-x-8 text-xs uppercase tracking-widest mb-10">
                                     <span className = {`${isDarkMode ? "text-gray-600" : "text-gray-500"}`}>
                                         React
                                     </span>
