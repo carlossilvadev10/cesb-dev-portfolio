@@ -5,6 +5,7 @@ import { FiGithub, FiLinkedin } from "react-icons/fi";
 import { useTheme } from "../../context/ThemeContext";
 import { containerVariants, itemVariants } from "../../utils/helper";
 import profilePicture from "../../assets/images/profile-image.jpg";
+import { TypeAnimation } from "react-type-animation";
 
 const socialLinks = [
     {
@@ -77,18 +78,14 @@ const Hero = () => {
                                 </div>
                             </motion.div>
                             <motion.div variants = {textVariants} className = {`text-sm uppercase tracking-widest ${isDarkMode ? "text-gray-500" : "text-gray-600"} mb-4`}>
-                                Full Stack Developer
+                                ¡Bienvenido a mi portfolio!
                             </motion.div>
                             <motion.h1 variants = {itemVariants} className = "text-3xl md:text-5xl font-light mb-6 leading-tight">
                                 <span className = {`${isDarkMode ? "text-white" : "text-gray-900"}`}>
-                                    Creando
+                                    ¡Hola! Soy Carlos <br />
                                 </span>
-                                <span className = "text-blue-500 font-medium ml-4">
-                                    experiencias digitales
-                                </span>
-                                <br />
-                                <span className = {`${isDarkMode ? "text-white" : "text-gray-900"}`}>
-                                    que conectan
+                                <span className = "text-blue-500 font-medium">
+                                    <TypeAnimation sequence = {["Full Stack Developer", 2000, "Diseñador UX/UI", 2000]} speed = {40} repeat = {Infinity} cursor = {false} wrapper = "span" className = "" />
                                 </span>
                             </motion.h1>
                             <motion.p variants = {itemVariants} className = {`text-base md:text-lg ${isDarkMode ? "text-gray-400" : "text-gray-600"} mb-8 max-w-xl mx-auto font-light leading-relaxed`}>
@@ -139,19 +136,14 @@ const Hero = () => {
                     <div className = "hidden lg:grid lg:grid-cols-2 lg:gap-16 lg:items-center">
                         <motion.div initial = "hidden" animate = "visible" variants = {containerVariants} className = "text-left">
                             <motion.div variants = {textVariants} className = {`text-sm uppercase tracking-widest ${isDarkMode ? "text-gray-500" : "text-gray-600"} mb-6`}>
-                                Full Stack Developer
+                                ¡Bienvenido a mi portfolio!
                             </motion.div>
                             <motion.h1 variants = {itemVariants} className = "text-5xl xl:text-7xl font-light mb-8 leading-tight">
                                 <span className = {`${isDarkMode ? "text-white" : "text-gray-900"}`}>
-                                    Creando
+                                    ¡Hola! Soy Carlos, <br />
                                 </span>
-                                <br />
                                 <span className = "text-blue-500 font-medium">
-                                    experiencias digitales
-                                </span>
-                                <br />
-                                <span className = {`${isDarkMode ? "text-white" : "text-gray-900"}`}>
-                                    que conectan
+                                    <TypeAnimation sequence = {["Full Stack Developer", 2000, "Diseñador UX/UI", 2000]} speed = {40} repeat = {Infinity} cursor = {false} wrapper = "span" className = "" />
                                 </span>
                             </motion.h1>
                             <motion.p variants = {itemVariants} className = {`text-xl ${isDarkMode ? "text-gray-400" : "text-gray-600"} mb-12 font-light leading-relaxed max-w-lg`}>
