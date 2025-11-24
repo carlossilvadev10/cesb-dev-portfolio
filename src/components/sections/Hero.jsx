@@ -92,7 +92,7 @@ const Hero = () => {
                                 Diseño y desarrollo aplicaciones web funcionales y atractivas, utilizando tecnologías modernas y creando experiencias de usuario memorables.
                             </motion.p>
                             <motion.div variants = {itemVariants} className = "flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">
-                                <motion.button whileHover = {{ y: -2 }} whileTap = {{ scale: 0.98 }} className = "bg-blue-500 hover:bg-blue-600 text-white px-8 py-3 rounded-full text-sm uppercase tracking-wider font-medium transition-all duration-300" onClick = {() => scrollToSection("work")}>
+                                <motion.button whileHover = {{ y: -2 }} whileTap = {{ scale: 0.98 }} className = "bg-blue-500 hover:bg-blue-600 text-white px-8 py-3 rounded-full text-sm uppercase tracking-wider font-medium transition-all duration-300" onClick = {() => scrollToSection("projects")}>
                                     Ver proyectos
                                 </motion.button>
                                 <motion.button whileHover = {{ y: -2 }} whileTap = {{ scale: 0.98 }} className = {`border ${isDarkMode ? "border-gray-700 hover:border-gray-600 text-gray-300" : "border-gray-300 hover:border-gray-400 texr-gray-700"} px-8 py-3 rounded-full text-sm uppercase tracking-wider font-medium transition-all duration-300`} onClick = {() => scrollToSection("contact")}>
@@ -150,7 +150,7 @@ const Hero = () => {
                                 Diseño y desarrollo aplicaciones web funcionales y atractivas, utilizando tecnologías modernas y creando experiencias de usuario memorables.
                             </motion.p>
                             <motion.div variants = {itemVariants} className = "flex gap-6 mb-8">
-                                <motion.button whileHover = {{ y: -2 }} whileTap = {{ scale: 0.98 }} className = "bg-blue-500 hover:bg-blue-600 text-white px-8 py-4 rounded-full text-sm uppercase tracking-wider font-medium transition-all duration-300" onClick = {() => scrollToSection("work")}>
+                                <motion.button whileHover = {{ y: -2 }} whileTap = {{ scale: 0.98 }} className = "bg-blue-500 hover:bg-blue-600 text-white px-8 py-4 rounded-full text-sm uppercase tracking-wider font-medium transition-all duration-300" onClick = {() => scrollToSection("projects")}>
                                     Ver proyectos
                                 </motion.button>
                                 <motion.button whileHover = {{ y: -2 }} whileTap = {{ scale: 0.98 }} className = {`border ${isDarkMode ? "border-gray-700 hover:border-gray-600 text-gray-300" : "border-gray-300 hover:border-gray-400 texr-gray-700"} px-8 py-4 rounded-full text-sm uppercase tracking-wider font-medium transition-all duration-300`} onClick = {() => scrollToSection("contact")}>

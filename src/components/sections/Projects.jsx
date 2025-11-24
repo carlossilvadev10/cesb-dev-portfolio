@@ -20,7 +20,7 @@ const Projects = () => {
             <div className = "max-w-7xl mx-auto relative z-10">
                 <motion.div initial = "hidden" animate = {isInView ? "visible" : "hidden"} variants = {containerVariants} className = "text-center mb-20">
                     <motion.div variants = {itemVariants} className = {`text-sm uppercase tracking-widest ${isDarkMode ? "text-gray-500" : "text-gray-600"} mb-4`}>
-                        Portafolio
+                        Mi código en acción
                     </motion.div>
                     <motion.h2 variants = {itemVariants} className = "text-3xl md:text-5xl font-light mb-6">
                         Projectos <span className = "text-blue-500 font-medium">recientes</span>
