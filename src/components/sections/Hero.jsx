@@ -82,7 +82,7 @@ const Hero = () => {
                             </motion.div>
                             <motion.h1 variants = {itemVariants} className = "text-3xl md:text-5xl font-light mb-6 leading-tight">
                                 <span className = {`${isDarkMode ? "text-white" : "text-gray-900"}`}>
-                                    ¡Hola! Soy Carlos <br />
+                                    ¡Hola! Soy Carlos, <br />
                                 </span>
                                 <span className = "text-blue-500 font-medium">
                                     <TypeAnimation sequence = {["Full Stack Developer", 2000, "Diseñador UX/UI", 2000]} speed = {40} repeat = {Infinity} cursor = {false} wrapper = "span" className = "" />
